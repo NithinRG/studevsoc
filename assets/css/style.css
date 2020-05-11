@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -193,6 +197,7 @@ h1, h4 {
     font-size: 30px;
     color: #bb3b85;
     padding: 4px;
+    cursor: pointer;
 }
 
 .footer {
@@ -214,12 +219,12 @@ h1, h4 {
     margin-bottom: 15px;
 }
 
-#contact .form-control {
+.contact .form-control {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 
-#contact .form-control:focus {
+.contact .form-control:focus {
     border-color: #bb3b85;
 }
 
